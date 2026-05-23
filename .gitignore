@@ -1,0 +1,34 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+.idea/
+*.iml
+.vscode/
+*.swp
+*~
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Logs / tooling
+*.log
+.claude/
+.cursor/
+
+# Gradle / Java
+.gradle/
+build/
+*.class
+*.jar
+hs_err_pid*
+
+# Gradle wrapper jar MUST be committed
+!**/gradle/wrapper/gradle-wrapper.jar
